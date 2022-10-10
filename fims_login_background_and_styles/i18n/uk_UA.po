@@ -1,0 +1,231 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fims_login_background_and_styles
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 10:15+0000\n"
+"PO-Revision-Date: 2022-10-10 10:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_res_config_settings__background
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.res_config_settings_view_form_login_background
+msgid "Background"
+msgstr "Фон"
+
+#. module: fims_login_background_and_styles
+#: model:ir.ui.menu,name:fims_login_background_and_styles.menu_image
+msgid "Background Image"
+msgstr "Фонове зображення"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,help:fims_login_background_and_styles.field_res_config_settings__color
+msgid "Choose your Background color"
+msgstr "Виберіть колір фону"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_res_config_settings__color
+#: model:ir.model.fields.selection,name:fims_login_background_and_styles.selection__res_config_settings__background__color
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.res_config_settings_view_form_login_background
+msgid "Color"
+msgstr "Колір"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model,name:fims_login_background_and_styles.model_res_config_settings
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_login_image__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_login_image__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields.selection,name:fims_login_background_and_styles.selection__res_config_settings__style__default
+msgid "Default"
+msgstr "За замовчуванням"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_login_image__display_name
+msgid "Display Name"
+msgstr "Відображуване Ім'я"
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_template
+msgid "Don't have an account?"
+msgstr "Немає облікового запису?"
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_template
+msgid "Email ..."
+msgstr "Ел. пошта ..."
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_login_image__id
+msgid "ID"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model:ir.actions.act_window,name:fims_login_background_and_styles.action_image_data
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_login_image__image
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_res_config_settings__background_image
+#: model:ir.model.fields.selection,name:fims_login_background_and_styles.selection__res_config_settings__background__image
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.res_config_settings_view_form_login_background
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.view_login_form
+msgid "Image"
+msgstr "Зображення"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_login_image____last_update
+msgid "Last Modified on"
+msgstr "Востаннє змінено"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_login_image__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_login_image__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields.selection,name:fims_login_background_and_styles.selection__res_config_settings__style__left
+msgid "Left"
+msgstr "Ліворуч"
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_template
+msgid "Log in"
+msgstr "Увійти"
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_template
+msgid "Log in as superuser"
+msgstr "Увійти як Суперкористувач"
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.res_config_settings_view_form_login_background
+msgid "Login Background"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_layout
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_layout
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_layout
+msgid "Logo"
+msgstr "Логотип"
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_layout
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_layout
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_layout
+msgid "Manage Databases"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields.selection,name:fims_login_background_and_styles.selection__res_config_settings__style__middle
+msgid "Middle"
+msgstr "По центру"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_login_image__name
+msgid "Name"
+msgstr "Ім'я"
+
+#. module: fims_login_background_and_styles
+#: code:addons/fims_login_background_and_styles/controllers/main.py:0
+#, python-format
+msgid ""
+"Only employees can access this database. Please contact the administrator."
+msgstr "Доступ до цієї бази даних мають лише співробітники. Будь ласка, зв'яжіться з адміністратором."
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_template
+msgid "Password ..."
+msgstr "Пароль ..."
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_layout
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_layout
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_layout
+msgid "Powered by <span>Odoo</span>"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_template
+msgid "Reset Password"
+msgstr "Скинути пароль"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields.selection,name:fims_login_background_and_styles.selection__res_config_settings__style__right
+msgid "Right"
+msgstr "Праворуч"
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.left_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.middle_login_template
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.right_login_template
+msgid ""
+"Select <i class=\"fa fa-database\" role=\"img\" aria-label=\"Database\" "
+"title=\"Database\"/>"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,help:fims_login_background_and_styles.field_res_config_settings__background_image
+msgid "Select Background Image For Login Page"
+msgstr "Виберіть фонове зображення для сторінки входу"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,help:fims_login_background_and_styles.field_res_config_settings__background
+#: model:ir.model.fields,help:fims_login_background_and_styles.field_res_config_settings__style
+msgid "Select Background Theme"
+msgstr "Виберіть фонову тему"
+
+#. module: fims_login_background_and_styles
+#: model:ir.model.fields,field_description:fims_login_background_and_styles.field_res_config_settings__style
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.res_config_settings_view_form_login_background
+msgid "Style"
+msgstr "Стиль"
+
+#. module: fims_login_background_and_styles
+#: code:addons/fims_login_background_and_styles/controllers/main.py:0
+#, python-format
+msgid "Wrong login/password"
+msgstr "Неправильний логін/пароль"
+
+#. module: fims_login_background_and_styles
+#: model_terms:ir.ui.view,arch_db:fims_login_background_and_styles.view_login_tree
+msgid "faculty list"
+msgstr ""
+
+#. module: fims_login_background_and_styles
+#: model:ir.model,name:fims_login_background_and_styles.model_login_image
+msgid "login.image"
+msgstr ""
