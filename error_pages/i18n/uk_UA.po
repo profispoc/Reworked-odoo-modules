@@ -1,0 +1,95 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* error_pages
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 11:12+0000\n"
+"PO-Revision-Date: 2022-10-10 11:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.400
+msgid "400"
+msgstr ""
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.403
+msgid "403"
+msgstr ""
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.404
+msgid "404"
+msgstr ""
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.500
+msgid "500"
+msgstr ""
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.400
+#: model_terms:ir.ui.view,arch_db:error_pages.403
+#: model_terms:ir.ui.view,arch_db:error_pages.404
+#: model_terms:ir.ui.view,arch_db:error_pages.500
+#: model_terms:ir.ui.view,arch_db:error_pages.http_routing_extend
+msgid "Go Home"
+msgstr "На Головну"
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.http_routing_extend
+msgid "Opps!!"
+msgstr "Упс!!"
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.500
+msgid ""
+"Opps!! Page is not working, Internal Server Error.\n"
+"                                    Please contact Technical Team."
+msgstr ""
+"Упс!! Сторінка не працює, внутрішня помилка сервера.\n"
+"                                   Зверніться до технічного адміністратора."
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.http_routing_extend
+msgid ""
+"Page is not working, Internal Server Error.\n"
+"                                                Please contact Technical Team."
+msgstr ""
+"Сторінка не працює, внутрішня помилка сервера.\n"
+"                                                Зверніться до технічного адміністратора."
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.404
+msgid ""
+"Sorry, the\n"
+"                                                page you are looking for could not be found."
+msgstr ""
+"Вибачте,\n"
+"                                               сторінку, яку ви шукаєте, не вдалося знайти."
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.403
+msgid ""
+"Sorry, the\n"
+"                                        page you are looking for could not be authorized."
+msgstr ""
+"Вибачте,\n"
+"                                        сторінку, яку ви шукаєте, не вдалося авторизувати."
+
+#. module: error_pages
+#: model_terms:ir.ui.view,arch_db:error_pages.400
+msgid ""
+"Sorry, the\n"
+"                                        page you are looking for could not be working, Please contact Technical Team."
+msgstr ""
+"Вибачте, \n"
+"                                        сторінка, яку ви шукаєте, може не працювати. Зверніться до технічного адміністратора."
