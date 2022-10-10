@@ -18,24 +18,24 @@ msgstr ""
 #. module: website_product_brand
 #: model_terms:ir.ui.view,arch_db:website_product_brand.product_brands
 msgid "No Brands Found."
-msgstr ""
+msgstr "Бренди не знайдено."
 
 #. module: website_product_brand
 #: model_terms:ir.ui.view,arch_db:website_product_brand.product_brands
 msgid "Product Brands"
-msgstr ""
+msgstr "Бренди"
 
 #. module: website_product_brand
 #: model_terms:ir.ui.view,arch_db:website_product_brand.product_brands
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 #. module: website_product_brand
 #: model_terms:ir.ui.view,arch_db:website_product_brand.product_brands
 msgid "Search..."
-msgstr ""
+msgstr "Пошук..."
 
 #. module: website_product_brand
 #: model:website.menu,name:website_product_brand.menu_website_sale_brand
 msgid "Shop by Brand"
-msgstr ""
+msgstr "БРЕНДИ"
