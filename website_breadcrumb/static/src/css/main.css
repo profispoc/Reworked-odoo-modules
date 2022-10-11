@@ -1,0 +1,10 @@
+.spoc_breadcrumb{
+    text-transform: lowercase;
+    background-color: #FFF;
+    margin: 1px;
+}
+
+.spoc_breadcrumb li::first-letter {
+    text-transform: uppercase;
+}
+

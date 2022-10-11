@@ -7,7 +7,7 @@
         customize_show="True"
         name="Breadcrumbs"
     >
-        <xpath expr="//header">
+        <xpath expr="//main" position="before">
             <t
                 id="breadcrumb"
                 t-if="request.env['website.menu']

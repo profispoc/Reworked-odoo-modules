@@ -12,5 +12,14 @@
     "application": False,
     "installable": True,
     "depends": ["website"],
-    "data": ["views/templates.xml", "views/layout.xml"],
+    "data": [
+        "views/templates.xml",
+        "views/layout.xml",
+        #'views/assets.xml',
+    ],
+    'assets': {
+        'web.assets_frontend': [
+            '/website_breadcrumb/static/src/css/main.css',
+        ],
+    },
 }
