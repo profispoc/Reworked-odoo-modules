@@ -14,6 +14,14 @@ These can be then rendered in a custom theme.
 It also brings back option for opening new window.
     """,
     "depends": ["website"],
-    "data": ["views/assets.xml", "views/website_menu_icon.xml"],
+    "data": [
+        #"views/assets.xml",
+        "views/website_menu_icon.xml"
+    ],
+    'assets': {
+        'web.assets_frontend': [
+            'website_menu_icon/static/src/js/content.js',
+        ],
+    },
     "installable": True,
 }
