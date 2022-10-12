@@ -6,7 +6,7 @@ odoo.define("ws_product_popup.dynamic_product_popup", function (require) {
     selector: ".oe_product",
     events: {
       "click a.d-block.h-100": "_onClick",
-      "click a.o_product_link.css_editable_mode_hidden": "_onClick",
+      //"click a.o_product_link.css_editable_mode_hidden": "_onClick",
     },
     _onClick: async function (ev) {
       var self = this;

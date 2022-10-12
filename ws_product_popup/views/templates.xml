@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="spoc_products_item" inherit_id="website_sale.products_item" name="Products item">
+        <xpath expr="//a[@class='o_product_link css_editable_mode_hidden']" position="replace">
+        </xpath>
+    </template>
+
+</odoo>

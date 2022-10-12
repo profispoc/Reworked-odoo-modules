@@ -13,10 +13,12 @@
     "category": "Website",
     "version": "0.1",
     "depends": ["base", "website", "website_sale"],
-    "data": [],
+    "data": [
+        "views/templates.xml",
+    ],
     "images": ["images/main_screenshot.gif"],
-    "assets":{
-        "web.assets_frontend":[
+    "assets": {
+        "web.assets_frontend": [
             "ws_product_popup/static/src/js/dynamic_product_popup.js",
         ],
     },
