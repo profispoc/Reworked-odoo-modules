@@ -9,9 +9,9 @@
             itemscope="itemscope" itemtype="http://schema.org/Product">
             <div class="card-body p-1 oe_product_image">
                 <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
-                <div class="ribbon-wrapper">
-                    <a href="#" role="button" class="ribbon btn btn-danger">Sale</a>
-                </div>
+<!--                <div class="ribbon-wrapper">-->
+<!--                    <a href="#" role="button" class="ribbon btn btn-danger">Sale</a>-->
+<!--                </div>-->
                 <a t-att-href="product_href" class="d-block h-100" itemprop="url">
                     <span t-field="product.image_1920"
                         t-options="{'widget': 'image', 'preview_image': 'image_1024' if product_image_big else 'image_256'}"
@@ -37,7 +37,7 @@
                         <span itemprop="price" style="display:none;" t-esc="combination_info['price']" />
                         <span itemprop="priceCurrency" style="display:none;" t-esc="website.currency_id.name" />
 
-                        <span style="color:green;" t-if="combination_info['our_price']" t-esc="combination_info['our_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/> <br/>
+                        <span style="color:green;" t-if="combination_info['total_saving']" t-esc="combination_info['our_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/> <br/>
                         <span t-if="combination_info['total_saving']" style="color:orange;">
                             Saving: <span t-if="combination_info['total_saving']" t-esc="combination_info['total_saving']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
                         </span>
@@ -65,7 +65,7 @@
               </t>
               <t t-if="combination_info['our_price'] and combination_info['total_saving']">
                         <b class="oe_our_price" style="color:green;" t-if="combination_info['our_price']" t-esc="combination_info['our_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/> <br/>
-                        <b class="oe_total_saving" t-if="combination_info['total_saving']" style="color:orange;">
+                        <b class="oe_total_saving" style="color:orange;">
                             Saving: <span t-if="combination_info['total_saving']" t-esc="combination_info['total_saving']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
                         </b>
               </t>

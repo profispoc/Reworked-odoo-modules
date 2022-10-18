@@ -1,0 +1,103 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bsi_web_product_saving_price
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-18 14:03+0000\n"
+"PO-Revision-Date: 2022-10-18 14:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_product_template_attribute_value__our_price_deduct
+msgid "Deduct Our Price"
+msgstr "Відніміть Нову Ціну"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model.fields,help:bsi_web_product_saving_price.field_product_template_attribute_value__our_price_deduct
+msgid ""
+"Deduct price for the variant with this attribute value on Our price. eg. 200"
+" price deduct, 1000 - 200 = 800 (Our Price)."
+msgstr ""
+"Відніміть ціну для варіанта з цим значенням атрибута з Нової ціни. напр. 200"
+" вирахування ціни, 1000 - 200 = 800 (Нова Ціна)."
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_product_product__our_price
+#: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_product_template__our_price
+msgid "Our Price"
+msgstr "Нова ціна"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_sale_order_line__our_price
+msgid "Our Unit Price"
+msgstr "Нова ціна за одиницю"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model,name:bsi_web_product_saving_price.model_product_product
+msgid "Product"
+msgstr "Товар"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model,name:bsi_web_product_saving_price.model_product_template
+msgid "Product Template"
+msgstr "Шаблон товару"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model,name:bsi_web_product_saving_price.model_product_template_attribute_value
+msgid "Product Template Attribute Value"
+msgstr "Значення атрибуту шаблону товару"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model,name:bsi_web_product_saving_price.model_sale_order
+msgid "Sale Order"
+msgstr "Замовлення на продаж"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model,name:bsi_web_product_saving_price.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Рядок замовлення на продаж"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model.fields,help:bsi_web_product_saving_price.field_product_product__our_price_deduct
+msgid "This is the sum of the our deduct price of all attributes"
+msgstr "Це сума нової вирахуваної ціни всіх атрибутів"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_product_product__total_saving
+#: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_product_template__total_saving
+msgid "Total Saving"
+msgstr "Загальна Знижка"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_sale_order__total_saving
+msgid "Total Savings"
+msgstr "Загальна Знижка"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_sale_order_line__unit_saving
+msgid "Unit Saving"
+msgstr "Знижка для одиниці"
+
+#. module: bsi_web_product_saving_price
+#: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_product_product__our_price_deduct
+msgid "Variant Deduct Price"
+msgstr "Ціна Вирахування Варіанта"
+
+#. module: bsi_web_product_saving_price
+#: model_terms:ir.ui.view,arch_db:website_sale.products_item
+#: model_terms:ir.ui.view,arch_db:website_sale.product_price
+msgid "Saving:"
+msgstr "Знижка:"
+
+#. module: bsi_web_product_saving_price
+#: model_terms:ir.ui.view,arch_db:website_sale.total
+msgid "Total Savings:"
+msgstr "Загальна Знижка:"
