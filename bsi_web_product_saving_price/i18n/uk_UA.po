@@ -18,7 +18,7 @@ msgstr ""
 #. module: bsi_web_product_saving_price
 #: model:ir.model.fields,field_description:bsi_web_product_saving_price.field_product_template_attribute_value__our_price_deduct
 msgid "Deduct Our Price"
-msgstr "Відніміть Нову Ціну"
+msgstr "Додайте знижку"
 
 #. module: bsi_web_product_saving_price
 #: model:ir.model.fields,help:bsi_web_product_saving_price.field_product_template_attribute_value__our_price_deduct
