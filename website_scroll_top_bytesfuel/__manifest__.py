@@ -11,7 +11,7 @@
     'author': "Bytesfuel",
     'website': "https://bytesfuel.com/",
     'license': 'LGPL-3',
-    "sequence":  1,
+    "sequence":  150,
     'data': [
         'views/back_to_top.xml',
     ],
