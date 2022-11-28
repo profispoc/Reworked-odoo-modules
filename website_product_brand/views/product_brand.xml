@@ -51,16 +51,11 @@
         </t>
     </template>
 
-    <template id="website_sale.categories_recursive" name="Category list">
-        <li t-att-class="'active' if c.id == int(category or 0) else ''">
-            <a t-att-href="keep('/shop/category/' + slug(c), category=0, brand=brand)"
-               t-field="c.name"/>
-            <ul t-if="c.child_id" class="nav nav-pills nav-stacked nav-hierarchy">
-                <t t-foreach="c.child_id" t-as="c">
-                    <t t-call="website_sale.categories_recursive"/>
-                </t>
-            </ul>
-        </li>
+    <template id="website_sale.categorie_link" name="Category Link">
+        <div t-att-data-link-href="keep('/shop/category/' + slug(c), category=0, brand=brand)" class="custom-control custom-radio mb-1 d-inline-block">
+            <input type="radio" style="pointer-events:none;" class="custom-control-input" t-att-id="c.id" t-att-value="c.id" t-att-checked="'true' if c.id == category.id else None"/>
+            <label class="custom-control-label font-weight-normal" t-att-for="c.id" t-field="c.name"/>
+        </div>
     </template>
 
     <!-- Menu in website for Brand -->
